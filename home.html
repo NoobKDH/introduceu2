@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>자기소개:home</title>
+        <meta name="viewport" content="width=device, user-scalable=no, initial-scale=1">
+        <link rel="stylesheet" href="work.css">
+        <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+        <script src="work.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Alkatra&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="body-wrapper">
+            <header><h1 id="name">DongHo Kim</h1></header>
+            <nav>
+                <div class="nav_content">
+                    <div class="nav_item project"><button type="button" onclick="location.href='https://noobkdh.github.io/Introduce_homepage/project.html'">project</button></div>
+                    <div class="nav_item introduce"><button type="button" onclick="location.href='https://noobkdh.github.io/Introduce_homepage/introduce.html'">introduce</button></div>
+                    <div class="nav_item home"><button type="button" onclick="location.href='https://noobkdh.github.io/Introduce_homepage/home.html'">home</button></div>
+                </div>
+            </nav>
+            <hr>
+            <div class="welcome text-center">
+                <div class="rimg">
+                    <img class="me3" src="me3.jpg">
+                </div>
+                <div class="weltext">
+                    <p class="text"></p>
+                </div>
+                <script>
+                    const content = "Hi!! This is Kim Dongho's self-introduction page.";
+                    const text = document.querySelector(".text");
+                    let i = 0;
+        
+                    function typing(){
+                        text.textContent += content[i++];
+                        if (i > content.length) {
+                            text.textContent = "";
+                            i = 0;
+                        }
+                    };
+                    setInterval(typing, 300)
+                </script>
+            </div>
+            <footer>
+                <p class="text-center cp">Copyright @ 2023.DongHo Kim All rights reserved.</p>
+            </footer>
+        </div>
+    </body>
+</html>
