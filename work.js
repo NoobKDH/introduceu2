@@ -34,13 +34,13 @@ $(document).ready(function(){
         $('.2022').click(function(){
             $(this).next('#panel2').slideToggle();
         });
-    if(window.location.href === './home.html'){
+    if(window.location.href === 'home.html'){
         $('.home').css('font-weight','bold');
     };
-    if(window.location.href === './introduce.html'){
+    if(window.location.href === 'introduce.html'){
         $('.introduce').css('font-weight','bold');
     };
-    if(window.location.href==='./project.html'){
+    if(window.location.href==='project.html'){
         $('.project').css('font-weight','bold');
     };
 
