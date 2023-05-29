@@ -1,0 +1,45 @@
+body {
+	background-color: #B2EBF4;
+}
+.main{
+	background-color: white;
+	width:  600px;
+	padding: 30px;
+	margin: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	boder: thick double black;
+	box-shadow: 0 1px 20px 0 rgba(0,0,0,0.1);
+}
+
+.name-box {
+	text-align:  right;
+	boder: 1px ;
+}
+
+}
+h1 {
+	font-size:36px;
+	font-weight:bold;
+	font-style: italic;
+}
+h3 {
+	border-bottom: 1px solid black;
+	text-align: left;
+}
+.a {
+}
+section {
+	margin-bottom: 24px;
+
+}
+.sns-wrap {
+	text-align: right;
+}
+.sns-img {
+	
+	width: 5;
+	height: 5;
+}
+
+}
