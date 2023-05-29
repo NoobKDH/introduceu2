@@ -26,6 +26,10 @@ $(document).ready(function(){
     }, function(){
         $(this).css('color','gray')
     });
+    $('#panel3').hide();
+        $('.2020').click(function(){
+            $(this).next('#panel3').slideToggle();
+        });
     $('#panel1').hide();
         $('.2021').click(function(){
             $(this).next('#panel1').slideToggle();
